@@ -1,0 +1,32 @@
+public class GradeCalculator {
+
+    public static String getLetterGrade(double gpa) {
+
+        if (gpa < 0.0 || gpa > 4.0) {
+            return "Invalid GPA";
+        }
+
+        if (gpa >= 3.7) {
+            return "A";
+        } else if (gpa >= 3.3) {
+            return "B+";
+        } else if (gpa >= 3.0) {
+            return "B";
+        } else if (gpa >= 2.7) {
+            return "C+";
+        } else if (gpa >= 2.0) {
+            return "C";
+        } else if (gpa >= 1.0) {
+            return "D";
+        } else {
+            return "F";
+        }
+    }
+
+    public static void main(String[] args) {
+        double gpa = 3.85;
+
+        System.out.println("GPA: " + gpa);
+        System.out.println("Letter Grade: " + getLetterGrade(gpa));
+    }
+}
