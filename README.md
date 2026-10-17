@@ -52,7 +52,7 @@ git init
 git add .
 git commit -m "Initial commit: Student Management System"
 git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/StudentManagementSystem.git
+git remote add origin https://github.com/AjwadRehman/StudentManagementSystem.git
 git push -u origin main
 ```
 
