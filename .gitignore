@@ -1,0 +1,18 @@
+# Eclipse metadata
+.metadata/
+.project
+.classpath
+.settings/
+
+# Java compiled files
+*.class
+bin/
+target/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Runtime student data (remove this line if you want to publish sample records)
+data/students.txt
